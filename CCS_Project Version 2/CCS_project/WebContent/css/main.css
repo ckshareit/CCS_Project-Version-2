@@ -1,0 +1,35 @@
+.fram{
+	padding-top: 2%;
+	padding-left: 3%;
+	padding-right: 3%;
+	
+}
+
+#button1
+{
+	/* border-radius:15px; */
+	padding:0.5%;
+	text-align:center;
+	width: 100px;
+	background-color: yellow;
+	color:#595959 ;
+	border:thin;
+	font-size:15px;
+	font-family: sans-serif;
+	height:35px;
+}
+
+.LeftFrame{
+	float: left;
+	padding-left: 3%;
+	
+}
+.LeftFrame2{
+	float: left;
+	padding-left: 3%;
+	padding-top: 2%;
+}
+.BkColr{
+	background-color: #f2f2f2;
+	padding-bottom: 18%;
+}

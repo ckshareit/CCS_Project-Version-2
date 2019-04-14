@@ -1,0 +1,30 @@
+# Create Table
+******************
+
+CREATE TABLE CCS_FORM(First_Name CHAR(50) NOT NULL, Last_Name CHAR(50) NOT NULL, Age NUMBER(2) NOT NULL, Gender CHAR(6) NOT NULL, Contact_Number NUMBER(10) NOT NULL, STATUS VARCHAR(10) NOT NULL, UIDs NUMBER(20) NOT NULL, Password VARCHAR(15) NOT NULL, Dispatch_Status VARCHAR(20));
+
+
+
+# Insert into Table
+***********************
+
+INSERT INTO CCS_FORM VALUES('chandan','jha',21,'male',9990081053,'submitted',1001,'12345','unavailable');
+
+INSERT INTO CCS_FORM VALUES('ghufran','khan',21,'male',8743875659,'submitted',1002,'12345','unavailable');
+
+INSERT INTO CCS_FORM VALUES('bhavesh','tyagi',21,'male',8826552411,'submitted',1003,'12345','unavailable');
+
+INSERT INTO CCS_FORM VALUES('prashant','singh',21,'male',8449244820,'submitted',1004,'12345','unavailable');
+
+INSERT INTO CCS_FORM VALUES('rohit','sharan',21,'male',8802468160,'submitted',1005,'12345','unavailable');
+
+
+# Create Table Admin
+**********************
+CREATE TABLE CCS_Admin( IDs NUMBER(20) NOT NULL, Password VARCHAR(15) NOT NULL);
+
+
+
+# Insert into Admin Table
+********************************
+INSERT INTO CCS_Admin VALUES(101,'54321');
