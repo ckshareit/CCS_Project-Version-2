@@ -1,3 +1,42 @@
+	/**
+	 * @see Servlet#init(ServletConfig)
+	 */
+	public void init(ServletConfig config) throws ServletException {
+		// TODO Auto-generated method stub
+	}
+
+#############
+// Step 1: set content type
+        response.setContentType("text/html");
+        
+        // Step 2: get printwriter
+        PrintWriter out = response.getWriter();
+        
+        // Step 3: read configuration params
+/*
+        ServletContext context = getServletContext(); // inherit from HttpServlet
+        String contextParamValue = context.getInitParameter("context-param-name");      
+        
+        // READ PER-SERVLET parameter
+        String initParamValue = getInitParameter("init-param-name");
+*/ 
+        
+        // Step 4: generate HTML content
+        out.println("<html><body>");
+        out.println("File Name is: " + propertiesFile);
+        out.println("</body></html>");  
+############
+
+/**
+	 * @see Servlet#destroy()
+	 */
+	public void destroy() {
+		// TODO Auto-generated method stub
+	}
+
+
+
+************************************
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
     pageEncoding="ISO-8859-1"%>
      <%@ page import="java.io.*,java.util.*,java.sql.*"%>
